@@ -36,7 +36,7 @@ namespace Casa
             GL.ClearColor(backgroundColor);
             int orthoSize = 200;
             GL.Ortho(-orthoSize, orthoSize, -orthoSize, orthoSize, -orthoSize, orthoSize);
-            GL.Rotate(90, 0.0f, 0.1f, 0.0f);
+            GL.Rotate(10, 0.2f, 0.1f, 0.1f);
             base.OnLoad(e);
         }
 
